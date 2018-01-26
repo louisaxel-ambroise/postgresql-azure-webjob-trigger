@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PostgreSql.AzureWebjob.Trigger</id>
+    <version>1.0.0-alpha</version>
+    <authors>Louis-Axel Ambroise</authors>
+    <owners>Louis-Axel Ambroise</owners>
+    <licenseUrl>https://github.com/louisaxel-ambroise/postgresql-azure-webjob-trigger/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/louisaxel-ambroise/postgresql-azure-webjob-trigger</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enable LISTEN command in PostgreSQL to be used as Azure Webjob trigger</description>
+    <releaseNotes>First version of the package</releaseNotes>
+    <copyright>Copyright 2018 Louis-Axel Ambroise</copyright>
+    <tags>azure webjob postgresql trigger</tags>
+	<frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Data" />
+    </frameworkAssemblies>
+    <dependencies>
+      <dependency id="Microsoft.Azure.WebJobs.Extensions" version="2.0.0" />
+      <dependency id="Npgsql" version="3.2.6" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\PostgreSql.AzureWebjob.Trigger\bin\Release\PostgreSql.AzureWebjob.Trigger.dll" target="lib\4.5.2" />
+  </files>  
+</package>
